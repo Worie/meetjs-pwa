@@ -3,6 +3,7 @@ import './types';
 import PortalVue from 'portal-vue';
 import { createRouter } from './router'
 import Root from './components/root';
+import './scss/main.scss';
 
 Vue.use(PortalVue);
 
