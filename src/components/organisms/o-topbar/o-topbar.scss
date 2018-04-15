@@ -1,0 +1,15 @@
+@import '../../../scss/_variables';
+
+.o-topbar {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.o-topbar_logo {
+  $size: 50px;
+  max-height: $size;
+}
+
+.o-topbar_date {
+  color: $c-green;
+}
