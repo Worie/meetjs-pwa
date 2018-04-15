@@ -1,5 +1,7 @@
+@import "variables";
+
 body {
-  background-color: black;
+  background-color: $c-purple;
   color: white;
 }
 h1 {
