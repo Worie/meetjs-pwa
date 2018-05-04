@@ -16,3 +16,12 @@ new Vue({
     document.dispatchEvent(new Event('render-event'))
   }
 });
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  }).catch(function(error) {
+    console.log('Service worker registration failed:', error);
+  });
+} else {
+  console.log('Service workers are not supported.');
+}
